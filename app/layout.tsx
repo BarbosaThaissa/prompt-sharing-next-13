@@ -1,10 +1,10 @@
 import "@styles/globals.css";
-import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+import Navbar from "@components/Navbar";
+import Provider from "@components/Provider";
 
 export const metadata = {
-  title: "My Promptopia App",
+  title: "Promptopia App",
   description: "Discover & Share AI Prompts",
 };
 
@@ -12,11 +12,16 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
       <body>
-        <div className="main">
-          <div className="gradient" />
-        </div>
+        <Provider>
+          <div className="main">
+            <div className="gradient" />
+          </div>
 
-        <main className="app">{children}</main>
+          <main className="app">
+            <Navbar />
+            {children}
+          </main>
+        </Provider>
       </body>
     </html>
   );
