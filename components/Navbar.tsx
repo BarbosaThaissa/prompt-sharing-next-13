@@ -14,10 +14,13 @@ const Navbar: React.FC<NavbarProps> = ({}: NavbarProps) => {
   const [toggleDropdown, setToggleDropdown] = useState<boolean>(false);
 
   useEffect(() => {
-    (async () => {
+    const setUpPro = async () => {
       const res = await getProviders();
+      console.log('naõ foi?',res);
       setProviders(res);
-    })();
+    }
+    
+    setUpPro();
   }, []);
 
   return (
@@ -128,9 +131,10 @@ const Navbar: React.FC<NavbarProps> = ({}: NavbarProps) => {
             {providers &&
               Object.values(providers).map((provider) => (
                 <button
-                  type="button"
-                  key={provider.name}
-                  onClick={() => {
+                type="button"
+                key={provider.name}
+                onClick={() => {
+                    console.log('nada?', provider)
                     signIn(provider.id);
                   }}
                   className="black_btn"
