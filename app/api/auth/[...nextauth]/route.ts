@@ -55,4 +55,4 @@ const handler = NextAuth({
 export { handler as GET, handler as POST };
 
 
-//tentar usar firebase
+//Se não der certo, tentar usar firebase
