@@ -56,3 +56,4 @@ export { handler as GET, handler as POST };
 
 
 //Se não der certo, vou tentar usar firebase. Let's go!
+const test: string = 'mantendo arotina' 
