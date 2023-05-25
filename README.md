@@ -1,6 +1,6 @@
 ## Promptopia app
 
-<p>Vou terminar esse projeto amanha, vo tentar com o firebase</p>
+<p>Vou terminar esse projeto amanha, vo tentar colocar 0 next_piblic e se não for, vou de firebase</p>
 
 ## Getting Started
 
@@ -19,4 +19,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
