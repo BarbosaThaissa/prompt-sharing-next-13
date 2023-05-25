@@ -1,6 +1,6 @@
 ## Promptopia app
 
-<p>Vou terminar esse projeto amanha</p>
+<p>Vou terminar esse projeto amanha, vo tentar com o firebase</p>
 
 ## Getting Started
 
