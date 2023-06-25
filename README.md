@@ -1,6 +1,6 @@
 ## Promptopia app
 
-<p>Vou terminar esse projeto amanha, vo tentar colocar 0 next_piblic e se não for, vou de firebase</p>
+<p>Talvez um dia eu termine esse projeto aqui. (next_piblic, firebase)</p>
 
 ## Getting Started
 
